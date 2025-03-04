@@ -17,7 +17,7 @@ const HeroHome = () => {
   }, []);
 
   return (
-    <div className='bg-[#259426] h-screen w-full relative pt-20 overflow-hidden'>
+    <div className='bg-[#259426] md:h-screen w-full relative pt-20 overflow-hidden'>
       <Image 
         src={randomLine}
         alt='Random Line'
@@ -30,7 +30,7 @@ const HeroHome = () => {
           ref={mealHeroRef}
           src={mealHero}
           alt='Meal Hero'
-          className='max-w-[923px] object-cover z-[1] opacity-0'
+          className='w-[500px] md:max-w-[923px] object-cover z-[1] opacity-0'
         />
       </div>
     </div>

@@ -3,6 +3,7 @@
 import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import workMan from "@/../public/going-to-work.svg";
 import appreciation from "@/../public/appreciation-1.svg";
 import salad from "@/../public/salad-1.svg";
@@ -12,13 +13,24 @@ import topRight from "@/../public/top-right.png";
 import bottomRight from "@/../public/bottom-right.png";
 
 const Values = () => {
+  const sectionRef = useRef(null);
   const topLeftRef = useRef(null);
   const topRightRef = useRef(null);
   const bottomLeftRef = useRef(null);
   const bottomRightRef = useRef(null);
 
   useEffect(() => {
-    const tl = gsap.timeline({ defaults: { duration: 1.2, ease: "power3.out" } });
+    gsap.registerPlugin(ScrollTrigger);
+
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: sectionRef.current,
+        start: "top 80%", // Triggers when 80% of the section is in view
+        end: "bottom 50%",
+        toggleActions: "play none none none", // Play animation once when in view
+      },
+      defaults: { duration: 1.2, ease: "power3.out" },
+    });
 
     tl.from(topLeftRef.current, { x: -100, y: -100, opacity: 0 })
       .from(topRightRef.current, { x: 100, y: -100, opacity: 0 }, "-=1")
@@ -28,7 +40,7 @@ const Values = () => {
   }, []);
 
   return (
-    <div className="bg-white w-full relative overflow-hidden flex flex-col py-[120px] items-center justify-center gap-20 px-40">
+    <div ref={sectionRef} className="bg-white w-full relative overflow-hidden flex flex-col py-[120px] items-center justify-center gap-20 px-40">
       <Image
         ref={topLeftRef}
         src={topLeft}

@@ -6,28 +6,11 @@ import logo from "@/../public/smeal-logo.png";
 import Link from "next/link";
 
 const Navbar = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > window.innerHeight) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
     <nav
-      className={`w-full fixed z-50 py-8 px-12 flex justify-between transition-all duration-300 ${
-        isScrolled ? "bg-[#259426]" : "bg-transparent"
-      }`}
+      className={`bg-transparent w-full fixed z-50 py-8 px-4 md:px-12 flex justify-between`}
     >
-      <Image src={logo} alt="SMeal Logo" width={64} className="md:w-32" />
+      <Image src={logo} alt="SMeal Logo" width={96} className="md:w-32" />
 
       <Link
         href={"/"}
