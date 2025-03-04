@@ -40,47 +40,47 @@ const Values = () => {
   }, []);
 
   return (
-    <div ref={sectionRef} className="bg-white w-full relative overflow-hidden flex flex-col py-[120px] items-center justify-center gap-20 px-40">
+    <div ref={sectionRef} className="bg-white w-full relative overflow-hidden flex flex-col py-[120px] items-center justify-center gap-20 px-6 md:px-40">
       <Image
         ref={topLeftRef}
         src={topLeft}
         alt="Top Left Decoration"
-        className="absolute -mt-20 top-0 left-0 w-full max-w-[300px]"
+        className="absolute -mt-20 top-0 left-0 w-full max-w-[150px] md:max-w-[300px]"
       />
 
       <Image
         ref={topRightRef}
         src={topRight}
         alt="Top Right Decoration"
-        className="absolute top-0 right-0 w-full max-w-[300px]"
+        className="absolute top-0 right-0 w-full max-w-[150px] md:max-w-[300px]"
       />
 
       <Image
         ref={bottomLeftRef}
         src={bottomLeft}
         alt="Bottom Left Decoration"
-        className="absolute bottom-0 left-0 w-full max-w-[300px]"
+        className="absolute bottom-0 left-0 w-full max-w-[150px] md:max-w-[300px]"
       />
 
       <Image
         ref={bottomRightRef}
         src={bottomRight}
         alt="Bottom Right Decoration"
-        className="absolute bottom-0 right-0 w-full max-w-[300px]"
+        className="absolute bottom-0 -right-[3rem] md:right-0 w-full max-w-[200px] md:max-w-[300px]"
       />
 
-      <p className="text-[#7D7] text-6xl leading-[120%] font-bold z-10">
+      <p className="text-[#7D7] text-[2rem] md:text-6xl leading-[120%] font-bold z-10">
         Our Values
       </p>
 
-      <div className="flex flex-row gap-10 z-10">
-        <div className="flex flex-col gap-4 items-center justify-center">
+      <div className="flex flex-col md:flex-row gap-10 z-10">
+        <div className="flex flex-col gap-2 md:gap-4 items-center justify-center">
           <Image
             src={workMan}
             alt="Going to Work"
-            className="w-full max-w-[150px]"
+            className="w-full max-w-[75px] md:max-w-[150px]"
           />
-          <p className="text-[32px] text-[#092A0B] leading-[120%] font-bold">
+          <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold">
             Practical
           </p>
           <p className="text-[#777675] font-medium leading-[150%] text-center">
@@ -91,13 +91,13 @@ const Values = () => {
 
         <div></div>
 
-        <div className="flex flex-col gap-4 items-center justify-center">
+        <div className="flex flex-col gap-2 md:gap-4 items-center justify-center">
           <Image
             src={appreciation}
             alt="Appreciation"
-            className="w-full max-w-[150px]"
+            className="w-full max-w-[75px] md:max-w-[150px]"
           />
-          <p className="text-[32px] text-[#092A0B] leading-[120%] font-bold">
+          <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold">
             Delicious
           </p>
           <p className="text-[#777675] font-medium leading-[150%] text-center">
@@ -107,9 +107,13 @@ const Values = () => {
 
         <div></div>
 
-        <div className="flex flex-col gap-4 items-center justify-center">
-          <Image src={salad} alt="Salad" className="w-full max-w-[150px]" />
-          <p className="text-[32px] text-[#092A0B] leading-[120%] font-bold">
+        <div className="flex flex-col gap-2 md:gap-4 items-center justify-center">
+          <Image 
+          src={salad} 
+          alt="Salad" 
+          className="w-full max-w-[75px] md:max-w-[150px]"
+          />
+          <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold">
             Nutritious
           </p>
           <p className="text-[#777675] font-medium leading-[150%] text-center">
