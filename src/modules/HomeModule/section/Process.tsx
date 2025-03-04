@@ -20,17 +20,17 @@ const Process = () => {
             Our Process
         </p>
         <div className='grid 2xl:grid-cols-6 lg:grid-cols-3 grid-cols-1 self-center gap-6 relative text-white font-bold sm:text-2xl leading-[120%] pb-20'>
-            <div className='px-4 py-3 sm:px-7 sm:py-5 bg-[#259426] absolute 2xl:bottom-10 left-[-3rem] sm:left-[-9rem] 2xl:left-0'>
+            <div className='px-4 py-3 sm:px-7 sm:py-5 bg-[#259426] absolute h-fit 2xl:bottom-10 left-[-3rem] sm:left-[-9rem] 2xl:left-0'>
                 <p>
                     Easy Packaging
                 </p>
             </div>
-            <div className='px-4 py-3 sm:px-7 sm:py-5 bg-[#34B335] absolute top-[30%] lg:bottom-[50%] 2xl:bottom-0 left-[-3rem] sm:left-[-8rem] 2xl:left-[16rem]'>
+            <div className='px-4 py-3 sm:px-7 sm:py-5 bg-[#34B335] absolute h-fit top-[30%] lg:bottom-[50%] 2xl:bottom-0 left-[-3rem] sm:left-[-8rem] 2xl:left-[16rem]'>
                 <p>
                 Scheduled Pick-Up
                 </p>
             </div>
-            <div className='px-4 py-3 sm:px-7 sm:py-5 bg-[#259426] absolute top-[15%] lg:top-0 2xl:bottom-10 right-[-3rem] sm:right-[-10rem] lg:left-[35rem] w-max'>
+            <div className='px-4 py-3 sm:px-7 sm:py-5 bg-[#259426] absolute h-fit top-[15%] lg:top-0 2xl:bottom-10 right-[-3rem] sm:right-[-10rem] lg:left-[35rem] w-max'>
                 <p>
                 Flexible Payment
                 </p>
@@ -40,7 +40,7 @@ const Process = () => {
                 Pick-Up Station
                 </p>
             </div>
-            <div className='px-4 py-3 sm:px-7 sm:py-5 bg-[#259426] absolute bottom-[20%] lg:bottom-10 left-[-3rem] sm:left-[-10rem] 2xl:right-10'>
+            <div className='px-4 py-3 sm:px-7 sm:py-5 bg-[#259426] absolute h-fit bottom-[20%] lg:bottom-10 left-[-3rem] sm:left-[-10rem] 2xl:right-10'>
                 <p>
                 Transparent Nutritiont
                 </p>
