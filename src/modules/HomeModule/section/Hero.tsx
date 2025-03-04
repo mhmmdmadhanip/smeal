@@ -5,6 +5,7 @@ import gsap from 'gsap';
 import randomLine from '@/../public/random-line.svg';
 import mealHero from '@/../public/meal-hero.webp';
 import HeroTag from '../../../../public/HeroTag';
+import logo from "@/../public/smeal-logo.png";
 
 const HeroHome = () => {
   const mealHeroRef = useRef(null);
@@ -18,6 +19,7 @@ const HeroHome = () => {
 
   return (
     <div className='bg-[#259426] md:h-screen w-full relative pt-20 overflow-hidden'>
+    <Image src={logo} alt="SMeal Logo" width={96} className="md:w-32 absolute top-8 left-4 md:left-8" />
       <Image 
         src={randomLine}
         alt='Random Line'
