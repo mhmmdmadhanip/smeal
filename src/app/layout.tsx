@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navbar from '../components/Navbar';
 import Layout from '../components/Layout';
 
 const geistSans = Geist({
@@ -17,6 +16,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "SMeal",
   description: "SMeal, Healthy meal on the go",
+  icons: {
+    icon: "/logo.ico",
+  },
 };
 
 export default function RootLayout({
