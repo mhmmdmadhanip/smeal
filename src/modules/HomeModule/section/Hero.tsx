@@ -23,7 +23,7 @@ const HeroHome = () => {
       <Image 
         src={randomLine}
         alt='Random Line'
-        className='w-full object-cover absolute bottom-0'
+        className='w-full object-cover absolute top-[40%] md:bottom-0'
       />
 
       <div className='h-full w-full flex flex-col items-center justify-end gap-12 pt-20'>
