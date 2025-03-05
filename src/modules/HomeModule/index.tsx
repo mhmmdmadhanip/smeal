@@ -4,6 +4,7 @@ import HeroHome from './section/Hero';
 import Meal from './section/Meal';
 import Values from './section/Values';
 import Process from './section/Process';
+import Menu from './section/Menu';
 
 const HomeModule = () => {
   return (
@@ -12,6 +13,7 @@ const HomeModule = () => {
       <Meal />
       <Values />
       <Process />
+      <Menu />
     </div>
   );
 }

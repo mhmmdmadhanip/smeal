@@ -10,3 +10,7 @@ body {
   background: var(--Primary-400, #5ACE5A);
   box-shadow: -111px 100px 42px 0px rgba(0, 0, 0, 0.00), -71px 64px 38px 0px rgba(0, 0, 0, 0.01), -40px 36px 32px 0px rgba(0, 0, 0, 0.02), -18px 16px 24px 0px rgba(0, 0, 0, 0.03), -4px 4px 13px 0px rgba(0, 0, 0, 0.04);
 }
+
+.bg-card {
+  background: linear-gradient(180deg, rgba(241, 252, 241, 0.00) 0%, #F1FCF1 98.5%);
+}
