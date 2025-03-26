@@ -32,7 +32,7 @@ const HeroHome = () => {
           ref={mealHeroRef}
           src={mealHero}
           alt='Meal Hero'
-          className='w-[500px] md:max-w-[923px] object-cover z-[1] opacity-0'
+          className='w-[600px] md:w-[923px] object-cover z-[1] opacity-0 -mb-28 sm:-mb-[10rem] md:-mb-[15rem]'
         />
       </div>
     </div>

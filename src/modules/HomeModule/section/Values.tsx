@@ -7,6 +7,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import workMan from "@/../public/going-to-work.svg";
 import appreciation from "@/../public/appreciation-1.svg";
 import salad from "@/../public/salad-1.svg";
+import commuter from "@/../public/commuter.svg";
+import timeSuccess from "@/../public/time-success.svg";
 import topLeft from "@/../public/top-left.png";
 import bottomLeft from "@/../public/bottom-left.png";
 import topRight from "@/../public/top-right.png";
@@ -73,54 +75,93 @@ const Values = () => {
         Our Values
       </p>
 
-      <div className="flex flex-col md:flex-row gap-10 z-10">
-        <div className="flex flex-col gap-2 md:gap-4 items-center justify-center">
-          <Image
-            src={workMan}
-            alt="Going to Work"
+      <div className="flex flex-col justify-center px-12 gap-10 z-10">
+        <div className="flex flex-col md:flex-row gap-10">
+          <div className="flex flex-col gap-2 md:gap-4 items-center justify-center max-w-xs">
+            <Image
+              src={commuter}
+              alt="Going to Work"
+              className="w-full max-w-[75px] md:max-w-[150px]"
+            />
+            <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold text-center">
+            Commuter Convenience
+            </p>
+            <p className="text-[#777675] font-medium leading-[150%] text-center">
+            Get food without having to walk far from the station or train
+            </p>
+          </div>
+
+          <div className="w-1 bg-[#DFF9DF]"></div>
+
+          <div className="flex flex-col gap-2 md:gap-4 items-center justify-center max-w-xs">
+            <Image
+              src={appreciation}
+              alt="Appreciation"
+              className="w-full max-w-[75px] md:max-w-[150px]"
+            />
+            <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold text-center">
+              Delicious
+            </p>
+            <p className="text-[#777675] font-medium leading-[150%] text-center">
+              Enjoy every bite with S’Meal’s flavorful and satisfying taste.
+            </p>
+          </div>
+
+          <div className="w-1 bg-[#DFF9DF]"></div>
+
+          <div className="flex flex-col gap-2 md:gap-4 items-center justify-center max-w-xs">
+            <Image
+              src={workMan}
+              alt="Going to Work"
+              className="w-full max-w-[75px] md:max-w-[150px]"
+            />
+            <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold text-center">
+              Practical
+            </p>
+            <p className="text-[#777675] font-medium leading-[150%] text-center">
+              S’Meal offers quick, hassle-free meals, perfect for your busy
+              lifestyle.
+            </p>
+          </div>
+
+          <div className="w-1 bg-[#DFF9DF]"></div>
+        </div>
+
+        <div className="flex flex-col md:flex-row gap-10 justify-center">
+          <div className="flex flex-col gap-2 md:gap-4 items-center justify-center max-w-xs">
+            <Image 
+            src={salad} 
+            alt="Salad" 
             className="w-full max-w-[75px] md:max-w-[150px]"
-          />
-          <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold">
-            Practical
-          </p>
-          <p className="text-[#777675] font-medium leading-[150%] text-center">
-            S’Meal offers quick, hassle-free meals, perfect for your busy
-            lifestyle.
-          </p>
-        </div>
+            />
+            <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold text-center">
+              Nutritious
+            </p>
+            <p className="text-[#777675] font-medium leading-[150%] text-center">
+              Packed with fresh, wholesome ingredients to keep you fueled and
+              healthy.
+            </p>
+          </div>
 
-        <div></div>
+          <div className="w-1 bg-[#DFF9DF]"></div>
 
-        <div className="flex flex-col gap-2 md:gap-4 items-center justify-center">
-          <Image
-            src={appreciation}
-            alt="Appreciation"
+          <div className="flex flex-col gap-2 md:gap-4 items-center justify-center max-w-xs">
+            <Image 
+            src={timeSuccess} 
+            alt="Time Success" 
             className="w-full max-w-[75px] md:max-w-[150px]"
-          />
-          <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold">
-            Delicious
-          </p>
-          <p className="text-[#777675] font-medium leading-[150%] text-center">
-            Enjoy every bite with S’Meal’s flavorful and satisfying taste.
-          </p>
+            />
+            <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold text-center">
+              Efficiency
+            </p>
+            <p className="text-[#777675] font-medium leading-[150%] text-center">
+              Reducing wait time when searching for food while traveling.
+            </p>
+          </div>
+
         </div>
 
-        <div></div>
 
-        <div className="flex flex-col gap-2 md:gap-4 items-center justify-center">
-          <Image 
-          src={salad} 
-          alt="Salad" 
-          className="w-full max-w-[75px] md:max-w-[150px]"
-          />
-          <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold">
-            Nutritious
-          </p>
-          <p className="text-[#777675] font-medium leading-[150%] text-center">
-            Packed with fresh, wholesome ingredients to keep you fueled and
-            healthy.
-          </p>
-        </div>
       </div>
     </div>
   );

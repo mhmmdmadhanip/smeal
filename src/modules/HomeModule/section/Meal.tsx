@@ -16,10 +16,10 @@ const Meal = () => {
         />
         <div className='flex flex-col gap-3 md:gap-2 w-full'>
             <p className='text-[18px] md:text-[28px] font-bold leading-[130%] text-[#393938]'>
-                S’Meal is your go-to choice for healthy, delicious, and convenient meals on the move! 
+                S’Meal adalah solusi terbaik bagi para komuter untuk mendapatkan makanan kekinian yang berkualitas dengan mudah!
             </p>
             <p className='text-sm md:text-2xl text-[#393938]'>
-                Perfectly portioned and made with fresh, nutritious ingredients, S’meal keeps you energized throughout the day. Grab yours now at nearest <strong>KRL station in Jakarta!</strong>
+            Dengan menyesuaikan menu berdasarkan preferensi pelanggan, S’Meal memastikan bahwa komuter dapat menikmati makanan favorit mereka tanpa harus berjalan jauh dari stasiun atau kereta, sehingga perjalanan menjadi lebih praktis dan nyaman.
             </p>
         </div>
         </div>
