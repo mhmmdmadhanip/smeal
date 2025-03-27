@@ -72,7 +72,7 @@ const Values = () => {
       />
 
       <p className="text-[#7D7] text-[2rem] md:text-6xl leading-[120%] font-bold z-10">
-        Our Values
+        Nilai Kami
       </p>
 
       <div className="flex flex-col justify-center px-12 gap-10 z-10">
@@ -84,10 +84,10 @@ const Values = () => {
               className="w-full max-w-[75px] md:max-w-[150px]"
             />
             <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold text-center">
-            Commuter Convenience
+            Kemudahan bagi Komuter
             </p>
             <p className="text-[#777675] font-medium leading-[150%] text-center">
-            Get food without having to walk far from the station or train
+            Dapatkan makanan tanpa harus berjalan jauh dari stasiun atau kereta.
             </p>
           </div>
 
@@ -100,10 +100,10 @@ const Values = () => {
               className="w-full max-w-[75px] md:max-w-[150px]"
             />
             <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold text-center">
-              Delicious
+            Kualitas
             </p>
             <p className="text-[#777675] font-medium leading-[150%] text-center">
-              Enjoy every bite with S’Meal’s flavorful and satisfying taste.
+            Beragam pilihan hidangan kekinian yang disesuaikan dengan preferensi pelanggan.
             </p>
           </div>
 
@@ -116,11 +116,10 @@ const Values = () => {
               className="w-full max-w-[75px] md:max-w-[150px]"
             />
             <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold text-center">
-              Practical
+            Cepat Saji 
             </p>
             <p className="text-[#777675] font-medium leading-[150%] text-center">
-              S’Meal offers quick, hassle-free meals, perfect for your busy
-              lifestyle.
+            Memastikan makanan disajikan tepat waktu dan dalam kondisi higienis.
             </p>
           </div>
 
@@ -135,11 +134,10 @@ const Values = () => {
             className="w-full max-w-[75px] md:max-w-[150px]"
             />
             <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold text-center">
-              Nutritious
+            Kemudahan Pembayaran
             </p>
             <p className="text-[#777675] font-medium leading-[150%] text-center">
-              Packed with fresh, wholesome ingredients to keep you fueled and
-              healthy.
+            Memungkinkan transaksi dengan berbagai metode pembayaran digital.
             </p>
           </div>
 
@@ -152,10 +150,10 @@ const Values = () => {
             className="w-full max-w-[75px] md:max-w-[150px]"
             />
             <p className="text-[24px] md:text-[32px] text-[#092A0B] leading-[120%] font-bold text-center">
-              Efficiency
+            Efisiensi
             </p>
             <p className="text-[#777675] font-medium leading-[150%] text-center">
-              Reducing wait time when searching for food while traveling.
+            Mengurangi waktu tunggu dalam mencari makanan saat bepergian.
             </p>
           </div>
 

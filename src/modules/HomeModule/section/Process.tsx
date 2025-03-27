@@ -17,7 +17,7 @@ const Process = () => {
             className='w-full object-cover absolute top-[10%] lg:top-0 left-0'
         />
         <p className='text-white text-[32px] md:text-[56px] font-bold leading-[120%]'>
-            Our Process
+            Pengembangan Kami di Masa Depan
         </p>
         <div className='grid 2xl:grid-cols-6 lg:grid-cols-3 grid-cols-1 self-center gap-6 relative text-white font-bold sm:text-2xl leading-[120%] pb-20'>
             <div className='px-4 py-3 sm:px-7 sm:py-5 bg-[#259426] absolute h-fit w-fit 2xl:bottom-10 left-[-3rem] sm:left-[-9rem] 2xl:left-0'>

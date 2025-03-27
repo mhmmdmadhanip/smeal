@@ -26,13 +26,15 @@ const HeroHome = () => {
         className='w-full object-cover absolute top-[40%] md:bottom-0'
       />
 
-      <div className='h-full w-full flex flex-col items-center justify-end gap-12 pt-20'>
-        <HeroTag />
+      <div className='h-full w-full flex flex-col items-center justify-end pt-20'>
+        <div className='xl:-mb-20'>
+          <HeroTag />
+        </div>
         <Image 
           ref={mealHeroRef}
           src={mealHero}
           alt='Meal Hero'
-          className='w-[600px] md:w-[923px] object-cover z-[1] opacity-0 -mb-28 sm:-mb-[10rem] md:-mb-[15rem]'
+          className='w-4/5 object-cover z-[1] opacity-0 -mb-20 sm:-mb-[10rem] md:-mb-[12rem] lg:-mb-[15rem] xl:-mb-[18rem]'
         />
       </div>
     </div>
